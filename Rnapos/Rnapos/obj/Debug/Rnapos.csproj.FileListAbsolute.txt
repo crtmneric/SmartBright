@@ -1,0 +1,10 @@
+c:\users\serkan\documents\visual studio 2012\Projects\Rnapos\Rnapos\bin\Debug\Rnapos.exe.config
+c:\users\serkan\documents\visual studio 2012\Projects\Rnapos\Rnapos\bin\Debug\Rnapos.exe
+c:\users\serkan\documents\visual studio 2012\Projects\Rnapos\Rnapos\bin\Debug\Rnapos.pdb
+c:\users\serkan\documents\visual studio 2012\Projects\Rnapos\Rnapos\obj\Debug\Rnapos.csprojResolveAssemblyReference.cache
+c:\users\serkan\documents\visual studio 2012\Projects\Rnapos\Rnapos\obj\Debug\Rnapos.Properties.Resources.resources
+c:\users\serkan\documents\visual studio 2012\Projects\Rnapos\Rnapos\obj\Debug\Rnapos.csproj.GenerateResource.Cache
+c:\users\serkan\documents\visual studio 2012\Projects\Rnapos\Rnapos\obj\Debug\Rnapos.exe
+c:\users\serkan\documents\visual studio 2012\Projects\Rnapos\Rnapos\obj\Debug\Rnapos.pdb
+c:\Users\Serkan\documents\visual studio 2012\Projects\Rnapos\Rnapos\obj\Debug\Rnapos.exe.licenses
+C:\Users\Serkan\documents\visual studio 2012\Projects\Rnapos\Rnapos\obj\Debug\Rnapos.frmMain.resources

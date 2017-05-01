@@ -1,0 +1,13 @@
+C:\Users\Serkan\Documents\Visual Studio 2012\Projects\Rnapos\Rnapos\bin\Debug\Rnapos.exe.config
+C:\Users\Serkan\Documents\Visual Studio 2012\Projects\Rnapos\Rnapos\obj\Debug\Rnapos.exe
+C:\Users\Serkan\Documents\Visual Studio 2012\Projects\Rnapos\Rnapos\obj\Debug\Rnapos.pdb
+C:\Users\Serkan\Documents\Visual Studio 2012\Projects\Rnapos\Rnapos\bin\Debug\Rnapos.exe
+C:\Users\Serkan\Documents\Visual Studio 2012\Projects\Rnapos\Rnapos\bin\Debug\Rnapos.pdb
+C:\Users\Serkan\Documents\Visual Studio 2012\Projects\Rnapos\Rnapos\obj\Debug\SmartBright.csprojResolveAssemblyReference.cache
+C:\Users\Serkan\Documents\Visual Studio 2012\Projects\Rnapos\Rnapos\obj\Debug\Rnapos.frmMain.resources
+C:\Users\Serkan\Documents\Visual Studio 2012\Projects\Rnapos\Rnapos\obj\Debug\Rnapos.Properties.Resources.resources
+C:\Users\Serkan\Documents\Visual Studio 2012\Projects\Rnapos\Rnapos\obj\Debug\SmartBright.csproj.GenerateResource.Cache
+C:\Users\Serkan\Documents\Visual Studio 2012\Projects\Rnapos\Rnapos\obj\Debug\Rnapos.exe.licenses
+C:\Users\Serkan\Documents\Visual Studio 2012\Projects\Rnapos\Rnapos\obj\Debug\Rnapos.frmControlScreen.resources
+C:\Users\Serkan\Documents\Visual Studio 2012\Projects\Rnapos\Rnapos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Serkan\Documents\Visual Studio 2012\Projects\Rnapos\Rnapos\bin\Debug\Newtonsoft.Json.xml
