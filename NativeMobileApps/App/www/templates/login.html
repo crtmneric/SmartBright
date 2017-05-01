@@ -1,0 +1,28 @@
+<ion-view view-title="Welcome" class="Welcome PageBg">
+    <ion-content>
+
+        <div class="headerContent">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"><img src="http://www.kanlazimapp.com/smartbright/SmartBrightLogo.png" alt=""/></div>
+                <div class="col"></div>
+            </div>
+        </div>
+       <div class="pageTitle">
+           <h2> Giriş Yap </h2>
+       </div>
+       <div class="loginForm">
+           <div class="list">
+               <label class="item item-input">
+                   <input type="text" ng-model="LoginData.email" placeholder="E-Posta Adresi">
+               </label>
+               <label class="item item-input">
+                   <input type="password" ng-model="LoginData.password" placeholder="Şifre">
+               </label>
+               <button ng-click="LoginPost();" class="button button-block button-light">
+                    Giriş Yap!
+               </button>
+       </div>
+
+    </ion-content>
+</ion-view>

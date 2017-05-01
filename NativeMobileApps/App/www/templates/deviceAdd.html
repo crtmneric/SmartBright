@@ -1,0 +1,45 @@
+<ion-view view-title="Welcome" style="height: 100vh; overflow: hidden;" class="Welcome">
+    <ion-content>
+
+        <div style="position: relative; height: 100vh; overflow: hidden;">
+            <div class="headerContent">
+                <div class="row">
+                    <div class="col" style="line-height: 50px; color: #fff; font-size: 30px; text-align: left;"><i style="" class="ionic ion-plus-circled"></i></div>
+                    <div class="col"><img src="http://www.kanlazimapp.com/smartbright/SmartBrightLogo.png" alt=""/></div>
+                    <div ng-click="deviceAdd()" class="col" style="line-height: 50px; color: #fff; font-size: 35px; text-align: right;"><i class="ionic ion-android-checkmark-circle"></i></div>
+                </div>
+            </div>
+
+            <div class="deviceAddContainer">
+
+                <div class="inputGroup">
+                    <span>Cihaz için isim belirleyiniz</span>
+                    <span><input type="text" ng-model="deviceData.name" name="" class=""/></span>
+                </div>
+
+                <div class="inputGroup selectInputGroup">
+                    <span>Harcadığı elektrik enerjisini giriniz (kwh)</span>
+                    <span><input type="number" ng-model="deviceData.energy" name="" style="width: 70%;" class=""/>
+                        <select ng-model="deviceData.time" name="" id="">
+                            <option selected="selected" value="1">Günlük</option>
+                            <option value="2">Saatlik</option>
+                        </select>
+                    </span>
+                </div>
+
+
+
+            </div>
+            <footer id="tab" scroll="true" style="">
+                <ul>
+                    <li><button class="button" ui-sref="app.search"><img ng-src="http://www.kanlazimapp.com/smartbright/reports.png" alt=""/></button></li>
+                    <li class="active"><button class="button" ui-sref="app.home"><i class="icon ion-android-menu"></i></button></li>
+                    <li><button class="button" ui-sref="app.settings"><i class="icon ion-gear-a"></i></button></li>
+                    <div style="clear: both"></div>
+                </ul>
+                <div style="clear: both"></div>
+            </footer>
+        </div>
+
+    </ion-content>
+</ion-view>

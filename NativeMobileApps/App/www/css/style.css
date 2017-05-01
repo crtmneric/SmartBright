@@ -1,0 +1,308 @@
+/* Empty. Add your own CSS if you like */
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700');
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.PageBg {
+    background: #f1c410;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.welcomeContent {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.welcomeContent img {
+    width: 150px;
+    height: 150px;
+}
+
+.welcomeContent h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.welcomeContent p {
+    color: #525252;
+    font-size: 20px;
+}
+
+.loginButton {
+    position: relative;
+    bottom: -130px;
+    padding: 5px;
+}
+
+.IconButton {
+    background: #1d1d1d;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.IconButton i {
+    float: left;
+    font-size: 35px !important;
+    margin-left: 15px;
+}
+
+button:hover{
+    color: #fff
+}
+
+.headerContent .row .col {
+    text-align: center;
+}
+
+.headerContent .row .col img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.loginForm {
+    margin: 50px;
+    margin-top: 100px;
+}
+
+.pageTitle {
+    margin: 10px;
+    text-align: center;
+
+}
+.pageTitle h2 {
+    font-family: 'Titillium Web' , sans-serif;
+    color: #fff;
+}
+
+.headerContent {
+    background: #f1c410;
+}
+
+.statusBar {
+    margin: 10px;
+    text-align: right;
+}
+
+.statusBar img {
+    width: 40px;
+    height: 40px;
+}
+
+.statusBar span {
+    position: relative;
+    left: 5px;
+    top: -10px;
+    font-size: 20px;
+}
+
+.homeContent {
+    margin: 10px;
+}
+
+.circle, .circleRight {
+    width: 100px;
+    height: 100px;
+    background: #1e1e1e;
+    border-radius: 100px;
+    text-align: center;
+    border: 5px solid #f1c410;
+    float: left;
+}
+
+.circle span , .circleRight span {
+    color: #727272
+}
+
+.kwatt {
+    font-size: 30px;
+    color: #fff !important;
+    display: block;
+    margin-top: 30px;
+}
+
+.col_right, .col_left {
+    width: 50%;
+    float: right;
+    line-height: 100px;
+    text-align: center !important;
+    font-size: 15px;
+}
+
+.colmn{
+    margin-bottom: 20px !important;
+}
+
+.col_left {
+    float: left;
+}
+
+.circleRight {
+    float: right;
+}
+
+.greenCircle {
+    background: #2ecc71;
+    border-color: #1cad5a;
+}
+
+.redCircle {
+  background: #990000;
+  border-color: #c0392b
+}
+
+#tab {
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
+}
+
+#tab ul li {
+    width: 33.3%;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    float: left;
+    margin-top: 40px;
+    border-radius: none !important;
+}
+
+#tab ul li button {
+    color: #fff;
+    position: relative;
+    background: #333;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: none !important;
+}
+
+#tab ul li button:active {
+    border: none;
+    outline: none;
+}
+
+#tab iframe {
+    width: 100%;
+}
+
+
+.active {
+    background: #eee;
+}
+
+.active button {
+    color: #fff !important;
+}
+
+#tab ul li button img {
+    width: 40px;
+    height: 40px;
+    margin-top: 3px;
+}
+
+.deviceAddContainer {
+    margin: 30px;
+}
+
+.inputGroup input {
+    padding: 8px;
+    background: #f1f1f1;
+    border: 1px solid #eee;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.selectInputGroup span input{
+    float: left;
+}
+
+.selectInputGroup select{
+    height: 35px;
+    background: #f1f1f1;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin-left: 10px;
+    position: relative;
+    top: 0px;
+    left: 15px;
+}
+
+.selectInputGroup select option {
+    padding: 8px;
+}
+
+.devicesContainer {
+    margin-top: 50px;
+}
+
+.devicesContainer ul li {
+    width: 100%;
+    margin-bottom: 5px;
+    overflow: auto;
+}
+
+.devicesContainer ul li div {
+    float: left;
+    font-size: 20px;
+    color: #333;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-left: none
+}
+
+.deviceName{
+  width: 70%;
+    background: #fff59d;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    text-indent: 20px;
+    border-right: 2px solid #fff !important;
+}
+
+.deviceCons {
+    width: 30%;
+    background: #fff59d;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.settingsContainer {
+    margin-top: 30px;
+}
+
+.settingsContainer ul li{
+    padding: 7px;
+    width: 100%;
+    background: #f9f9f9;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 3px;
+}
+
+li.Title {
+    background: none !important;
+    border: none !important;
+    text-align: center;
+}
+
+.multiSelect span select option {
+    padding: 10px;
+}
+
+.deviceAddContainer .inputGroup{
+    margin-bottom: 10px
+}
+
+.NotificationContainer {
+  margin: 10px;
+}

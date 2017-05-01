@@ -1,0 +1,78 @@
+<ion-view view-title="Welcome" style="height: 100vh; overflow: hidden;" class="Welcome">
+  <ion-content>
+    <div style="position: relative; height: 100vh;">
+      <div class="headerContent">
+        <div class="row">
+          <div ui-sref="app.deviceAdd" class="col" style="line-height: 50px; color: #fff; font-size: 30px; text-align: left;"><i style="" class="ionic ion-plus-circled"></i></div>
+          <div class="col"><img src="http://www.kanlazimapp.com/smartbright/SmartBrightLogo.png" alt=""/></div>
+          <div ui-sref="app.Notifications" class="col" style="line-height: 50px; color: #fff; font-size: 35px; text-align: right;"><i class="ionic ion-ios-color-filter"></i></div>
+        </div>
+      </div>
+
+    <div class="NotificationContainer">
+
+      <div class="colmn">
+
+        <div class="circle greenCircle">
+                    <span class="kwatt">
+                       3041
+                    </span>
+          <span>kwatt</span>
+        </div>
+
+        <div class="col_right">
+          Dün yapılan tasarruf
+        </div>
+        <div style="clear: both"></div>
+      </div>
+
+      <div class="colmn">
+
+        <div class="circleRight">
+                    <span class="kwatt">
+                       Salı
+                    </span>
+          <span>günü</span>
+        </div>
+
+        <div class="col_left" style="font-size: 12px">
+          Bu hafta tahmini max. tasarruf
+        </div>
+
+        <div style="clear: both"></div>
+
+      </div>
+
+
+      <div class="colmn">
+
+        <div class="circle redCircle">
+                    <span class="kwatt">
+                      1023
+                    </span>
+          <span style="color: #fff">kwatt</span>
+        </div>
+
+        <div class="col_right"  style="font-size: 12px">
+         Günlük Ortalama Tüketim
+        </div>
+        <div style="clear: both"></div>
+      </div>
+
+
+    </div>
+    </div>
+
+
+      <footer id="tab" scroll="true" style="">
+        <ul>
+          <li><button class="button" ui-sref="app.search"><img ng-src="http://www.kanlazimapp.com/smartbright/reports.png" alt=""/></button></li>
+          <li class="active"><button class="button" ui-sref="app.home"><i class="icon ion-android-menu"></i></button></li>
+          <li><button class="button" ui-sref="app.settings"><i class="icon ion-gear-a"></i></button></li>
+          <div style="clear: both"></div>
+        </ul>
+        <div style="clear: both"></div>
+      </footer>
+    </div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,563 @@
+
+
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../lib/ionic/fonts/titillium-web.ttf'); /* IE9 Compat Modes */
+url('../lib/ionic/fonts/titillium-web.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+.container{
+
+    font-family: 'Titillium Web' , sans-serif;
+    background: #c3320c !important;
+    height: 100vh;
+
+}
+
+.containerA{
+
+    font-family: 'Titillium Web', sans-serif;
+    background: #c3320c !important;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+
+}
+
+
+.mainContainer{
+    font-family: sans-serif;
+    background: #fff !important;
+    min-height: 100%;
+
+}
+
+.body{
+    background-color: #c3320c;
+    position:relative;
+    min-height: 100%;
+}
+
+.logo{
+    width: 70px;
+    height: 55px;
+}
+
+.welcome {
+    text-align: center;
+    margin: 10px;
+    margin-top: 60px;
+    color: #94220d;
+    font-size: 20px !important;
+}
+
+.welcome h3{
+    color: #94220d;
+    font-size: 30px;
+}
+
+.step{
+    margin-top: 30px
+}
+
+.step ul li{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 23px;
+    color: #fff;
+}
+
+.step ul li span:first-child{
+    float: left;
+    color: #94220d;
+    margin-left: 10px;
+}
+
+.regButtons{
+    margin: 10px;
+    margin-top: 90px;
+}
+
+.regButton{
+    background: #94220d;
+    color: #fff !important;
+    font-size: 20px;
+}
+
+button{
+    font-size: 20px;
+}
+
+.regButton:hover{
+    color: #fff;
+}
+
+a:hover{
+    color: transparent;
+}
+
+.loginHeader{
+    margin: 20px !important;
+}
+
+.loginHeader span{
+    cursor: pointer;
+    font-size: 20px;
+    color: #c3320c;
+}
+
+.loginMain {
+    margin-top: 100px;
+
+}
+
+.loginLogo {
+    text-align: center
+}
+
+.loginLogo img{
+    width: 150px;
+    height: 155px;
+}
+
+.loginForm{
+    margin: 20px !important;
+}
+
+.loginForm input{
+    background: #383838;
+    width: 100%;
+    border-radius: 5px;
+    text-indent: 15px;
+    color: #fff;
+    font-family: Sans-Serif;
+}
+
+span.info{
+    float: right;
+    margin: 10px;
+}
+
+.regHeader {
+    height: 60px;
+    background: #9b2818;
+    font-size: 25px;
+}
+
+.regHeaderLeft{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.regLogo{
+    text-align: center;
+    margin-top: -20px;
+}
+
+.regLogo img {
+    width: 90px;
+}
+
+.regText {
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+}
+
+.regForm {
+    margin: 10px;
+    color: #fff;
+}
+
+.birthdaySelect {
+    width: 25%;
+    text-align: center;
+    color: #8e3018;
+    margin: 5px;
+}
+
+.regForm span {
+    color: #fff;
+}
+
+.bloodGroup{
+    text-align: center !important;
+}
+
+.bloodSelect{
+    width: 100%;
+    padding: 10px;
+    text-align: center !important;
+    color: #8e3018 !important;
+}
+
+.regInput{
+    width: 95%;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+
+
+.regContainer{
+    background: #c3320c;
+    height: 110vh;
+}
+
+#tab {
+    width: 100%;
+    height: auto;
+    position: fixed !important;
+    background: #9b2818;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.mapButton {
+    padding: 5px !important; background: #fff; font-family: 'Titillium Web', sans-serif; border: none; width: 90%; margin: 10px auto;
+}
+
+#tab ul li {
+    width: 33.3%;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    float: left;
+
+}
+
+#tab ul li button {
+    color: #fff;
+    position: relative;
+    background: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+#tab ul li button:active {
+    border: none;
+    outline: none;
+}
+
+#tab iframe {
+    width: 100%;
+}
+
+
+.active {
+    background: #eee;
+}
+
+.active button {
+    color: #94220d !important;
+}
+
+.content {
+    margin: 30px;
+    text-align: center;
+    color: #94220d;
+}
+
+.content h3 {
+    color: #94220d;
+}
+
+.profileUser{
+    width: 100%;
+    height: 100px;
+    background: #94220d;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.bloodCart{
+    width: 90%;
+    margin: 5% auto;
+    margin-top: 50px;
+    background: #fff;
+    border-radius: 2px;
+    color: #c3320c;
+    box-shadow: 3px 3px 3px #94220d;
+}
+
+.cartTitle{
+    padding: 10px;
+    text-align: center;
+    color: #c3320c;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #c3320c;
+}
+
+.cartInfo ul li {
+    padding: 10px;
+}
+
+.cartInfo ul{
+    width: 70%;
+    float: left;
+    font-size: 17px;
+}
+
+.cartInfo div{
+    position: relative;
+    top: 50px;
+    right: -40px;
+}
+
+#mainList ul li{
+    margin-bottom: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.mainColmn{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    background: #eee;
+    height: 60px;
+    line-height: 60px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.mainClock{
+}
+
+.mainClock {
+    position: relative;
+    background: #f1f1f1;
+}
+.mainClock:after, .mainClock:before {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.mainClock:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #f1f1f1;
+    border-width: 15px;
+    margin-top: -15px;
+}
+
+
+.mainBlood{
+    background: #9b2818;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.mainKm {
+    position: relative;
+    background: #f1f1f1;
+}
+.mainKm:after, .mainKm:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.mainKm:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-right-color: #f1f1f1;
+    border-width: 15px;
+    margin-top: -15px;
+}
+
+.closeButton{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: none;
+    border: 0;
+    padding: 10px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.undef{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 100px;
+    color: #ddd;
+    top: 100px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.undef h3{
+    color: #ddd;
+}
+
+.whatHeader {
+    height: 70px;
+    background: #f1f1f1;
+}
+
+.versionUpdate{
+    padding: 10px;
+    background: #eee;
+    font-size: 15px;
+    text-align: center;
+    color: #aaa;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.closeVersion {
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+
+.closeVersion button{
+    border: none;
+    background: none;
+    color: #aaa;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.whatHeaderLeft{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    color: #333;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+
+.whatTitle{
+    width: 100%;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.whatTitle h3{
+    color: #fff;
+    font-size: 25px;
+}
+
+.whatText{
+    width: 90%;
+    margin: 100px auto;
+    text-align: center;
+    color: #333;
+}
+
+.whatText > h1, h2, h3, h4, h5, h6{
+    color: #94220d;
+}
+
+.whatText a {
+    color: #333;
+    text-decoration: none;
+}
+
+.whatText a:hover{
+    text-decoration: none;
+    color: #333;
+}
+
+.whatTextFAQ{
+    width: 90%;
+    margin: 20px auto;
+    color: #333;
+}
+
+.whatTextFAQ ul li{
+    margin-bottom: 5px;
+    border: 1px solid #eee;
+}
+
+.faqt{
+    width: 100%;
+    height: 40px;
+    background: #eee;
+    color: #333;
+    text-align: center;
+}
+
+.faqt h3{
+    color: #333;
+    font-size: 17px;
+    line-height: 40px;
+}
+
+.whatTextFAQ p {
+    margin: 10px;
+}
+
+.profileEditIcon{
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    font-size: 20px;
+}
+
+.profileEditIcon button {
+    color: #fff;
+    background: transparent;
+    border: none;
+    font-size: 35px;
+}
+
+.menu-item {
+    color: #181818;
+}
+
+a:hover{
+    color: #c3320c;
+}
+
+.menu-content{
+    animation-name: example;
+    animation-duration: 2300ms;
+}
+
+
+@keyframes example {
+    from {transform: translate3d(200px, 0px, 0px);}
+    to {transform: translate3d(0px, 0px, 0px);}
+}
+
+#leftMenuIcon{
+    float: left;
+    font-size: 25px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin-left: -15px;
+}
+
+#leftMenuIcon button{
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+.leftMenu{
+    margin-left: 275px !important
+
+}

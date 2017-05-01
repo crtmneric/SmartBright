@@ -1,0 +1,51 @@
+<ion-view view-title="Welcome" style="height: 100vh; overflow: hidden;" class="Welcome">
+    <ion-content>
+
+        <div style="position: relative; height: 100vh; overflow: hidden;">
+            <div class="headerContent">
+                <div class="row">
+                    <div ui-sref="app.deviceAdd" class="col" style="line-height: 50px; color: #fff; font-size: 30px; text-align: left;"><i style="" class="ionic ion-plus-circled"></i></div>
+                    <div class="col"><img src="http://www.kanlazimapp.com/smartbright/SmartBrightLogo.png" alt=""/></div>
+                    <div class="col" style="line-height: 50px; color: #fff; font-size: 35px; text-align: right;"><i class="ionic ion-ios-color-filter"></i></div>
+                </div>
+            </div>
+
+
+            <div class="settingsContainer">
+
+                <ul>
+                    <li class="Title">Genel Ayarlar</li>
+                    <li>Bilgileri Düzenle</li>
+                    <li ui-sref="app.modes">Modlarım</li>
+                    <li ui-sref="app.plan">Geçerli Plan</li>
+
+                    <li class="Title">Cihaz Yönetimi</li>
+                    <li ui-sref="app.devices">Cihazlarım</li>
+                    <li>Cihaz önerileri</li>
+
+
+                    <li class="Title">Faydalı</li>
+                    <li>Neresi uygun?</li>
+                    <li>Verimlilik Önerileri</li>
+
+                    <li class="Title">Hakkında</li>
+                    <li>Hakkında</li>
+                    <li>Güncelleme Geçmişi</li>
+
+                </ul>
+
+            </div>
+
+            <footer id="tab" scroll="true" style="">
+                <ul>
+                    <li><button class="button" ui-sref="app.search"><img ng-src="http://www.kanlazimapp.com/smartbright/reports.png" alt=""/></button></li>
+                    <li class="active"><button class="button" ui-sref="app.home"><i class="icon ion-android-menu"></i></button></li>
+                    <li><button class="button" ui-sref="app.settings"><i class="icon ion-gear-a"></i></button></li>
+                    <div style="clear: both"></div>
+                </ul>
+                <div style="clear: both"></div>
+            </footer>
+        </div>
+
+    </ion-content>
+</ion-view>
