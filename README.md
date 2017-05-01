@@ -22,8 +22,9 @@ Team: https://2017.spaceappschallenge.org/challenges/earth-and-us/you-are-my-sun
 # Mobile Clients
 
 U can manage ur energy plans and send them anywhere from u can get internet connection!
- Multiple ScreenShoots     |
+
+  Multiple ScreenShoots   |
 -------------------------|
-<img src="http://i.hizliresim.com/LyzjWJ.png" width="800"> |
+<img src="http://i.hizliresim.com/LyzjWJ.png" width="800">  |
 
 
